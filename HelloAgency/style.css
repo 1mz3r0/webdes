@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+
+.background-wrapper{
+  background:#3598db;
+  height: 55vw;
+}
+
+nav{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.navbar-items{
+  margin: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  list-style: none;
+  padding-top: 20px;
+
+}
+
+.navbar-items li{
+  margin: 0;
+  display: inline-block;
+  padding: 0;
+}
+
+.navbar-item{
+  float: right;
+  color: white;
+}
+.logo{
+  font-weight: bold;
+  color: white;
+  font-family:'Lato';
+}
+.logo img{
+  width: 12px;
+}
+
+.container{
+  margin-left:5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.content{
+  position: relative;
+  top: 80px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+}
+
+.mainText{
+  color: white;
+  font-size: 6vw;
+}
+.subText{
+  color: white;
+  text-transform: uppercase;
+  font-size: 4vw;
+  letter-spacing: 4px;
+}
+.background-wrapper-second{
+  background: #ecf0f1;
+}
+
+
+.aboutUs{
+  margin-left: 15%;
+  margin-right: 15%;
+  position: relative;
+  top: -120px;
+  background: white;
+  border-radius: 5px;
+  padding: 50px;
+  padding-top: 30px;
+  -webkit-box-shadow: -1px -1px 1px 1px rgba(0,0,0,0.21);
+-moz-box-shadow: -1px -1px 1px 1px rgba(0,0,0,0.21);
+box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.21);
+}
+
+.aboutUs h4{
+  font-weight: normal;
+  padding: 0;
+  margin:0;
+  padding-top: 0;
+  padding-bottom: 5px;
+  font-family: 'Raleway';
+  font-size: 20px;
+}
+.aboutUs p{
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #64666b;
+  line-height: 22px;
+}
+.x{
+font-size: 20px;
+font-family: "Lato";
+font-weight: bold;
+color: #3598db;
+
+}
+
+.aboutUs button{
+    font-family: 'Raleway';
+    color:white;
+    background: #3598DB;
+    border: 0;
+    padding: 12px 25px 12px 25px;
+    border-radius: 28px;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
